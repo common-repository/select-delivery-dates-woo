@@ -1,0 +1,375 @@
+label.ocwdd_pro_link {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.ocwdd-container h2 {
+    display: block;
+    font-size: 18px !important;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+p.ocwdd-heading {
+    font-size: 20px !important;
+    font-weight: 600;
+    margin: 0;
+    background: #2271b1;
+    padding: 5px 15px;
+    color: #fff;
+}
+.ocwdd-inner-block {
+    margin-top: 10px;
+}
+.ocwdd-inner-block ul.tabs{
+    margin: 20px 0px;
+    padding: 0px;
+    list-style: none;
+}
+a.add_field_button.button-secondary {
+    margin-bottom: 10px;
+}
+.ocwdd_input_fields_wrap div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.remove_field img {
+    vertical-align: middle;
+    width: 20px;
+}
+.ocwdd-inner-block ul.tabs li{
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 0;
+    border: 1px solid #2271b1;
+    margin-left: 0px;
+    margin-right: 2px;
+    background-color: #2271b1;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 20px;
+    transition: .5s;
+}
+.ocwdd-inner-block ul.tabs li.current{
+    color: #2271b1;
+    background: #ffffff;
+}
+input#ocwdd-btn-space {
+    margin: 10px 0px;
+    padding: 3px 15px;
+    border-radius: 0px;
+}
+.ocwdd-inner-block .tab-content{
+    display: none;
+    background-color: #ffffff;
+}
+.ocwdd_table_main, table.form-table tbody, table.form-table tbody tr {
+    width: 100%;
+    display: inline-block;
+}
+table.form-table {
+    padding: 15px !important;
+    margin: 0;
+    display: inline-block;
+}
+.ocwdd-inner-block .tab-content.current{
+    display: inherit;
+    border: 1px solid #2271b1;
+}
+p.ocwdd-tips {
+    margin: 2px 0 5px !important;
+    color: #666;
+    font-size: 12px !important;
+    font-style: italic;
+}
+.ocwdd_delivery_date_admin strong {
+    color: #000;
+}
+img.ocwdd_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+
+/* Date Picker*/
+.ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 3px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 3px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 3px;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 3px;
+}
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #333333;
+}
+.ui-widget {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+}
+.ui-datepicker {
+    width: 17em;
+    padding: .2em .2em 0;
+    display: none;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+.ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #e9e9e9;
+    color: #333333;
+    font-weight: bold;
+}
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: .2em 0;
+}
+.ui-widget-header a {
+    color: #333333;
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    position: absolute;
+    top: 2px;
+    width: 1.8em;
+    height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev {
+    left: 2px;
+}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+    opacity: .35;
+    filter: Alpha(Opacity=35);
+    background-image: none;
+}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -8px;
+}
+.ui-widget-header .ui-icon {
+    background-image: url("images/ui-icons_444444_256x240.png");
+}
+.ui-icon-circle-triangle-e {
+    background-position: -48px -192px;
+}
+
+.ui-datepicker .ui-icon {
+    display: block;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    left: .5em;
+    top: .3em;
+}
+.ui-icon-circle-triangle-w {
+    background-position: -80px -192px;
+}
+.ui-icon {
+    width: 16px;
+    height: 16px;
+}
+.ui-datepicker .ui-datepicker-next {
+    right: 2px;
+}
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+}
+.ui-datepicker table {
+    width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+}
+.ui-datepicker th {
+    padding: .7em .3em;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+}
+
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+    opacity: .35;
+    filter: Alpha(Opacity=35);
+    background-image: none;
+}
+
+.ui-datepicker td {
+    border: 0;
+    padding: 1px;
+}
+
+.ui-state-disabled {
+    cursor: default !important;
+    pointer-events: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: .2em;
+    text-align: right;
+    text-decoration: none;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #dad55e;
+    background: #fffa90;
+    color: #777620;
+}
+.tab-content table th{
+    font-size:16px;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px;
+    font-weight: 600;
+    display: inline-block;
+    width: 25%;
+}
+.tab-content table td {
+    vertical-align: top;
+    padding: 10px;
+    display: inline-block;
+    width: 70%;
+}
+a.remove_field {
+    margin-left: 10px;
+}
+
+/*CSS for support rating donation multistep start*/
+.ocwdd_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+.ocwdd_ratesup_notice_main {
+    display: inline-block;
+    width: 100%;
+}
+.ocwdd_rateus_notice, .ocwdd_support_notice {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    color: #fff;
+    background-color: #fb5f51;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 70px;
+    margin-bottom: 12px;
+}
+.ocwdd_rateus_notice h3, .ocwdd_support_notice h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.ocwdd_rateus_notice label, .ocwdd_support_notice label {
+    font-size: 16px;
+}
+.ocwdd_support_notice {
+    background-color: #2f3337;
+    margin-left: 2%;
+}
+.ocwdd_rateus_notice a, .ocwdd_support_notice a {
+    color: #fff;
+}
+.ocwdd_rtusnoti_left {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+.ocwdd_rtusnoti_right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.ocwdd_rtusnoti_right img {
+    width: 50px;
+    height: auto;
+}
+.ocwdd_donate_main {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    width: 94.6%;
+    border: 1px solid #e3bbac;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 15px;
+}
+.ocwdd_donate_main img {
+    height: 32px;
+}
+.ocwdd_donate_main > * {
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+.ocwdd_onate_main h3 {
+    font-size: 15px;
+}
+.ocwdd_donate_form {
+    display: flex;
+}
+.ocwdd_donate_main .button {
+    text-align: center;
+}
+img.ocwdd_rating_div { 
+    width: 100px;
+    vertical-align: middle;
+}
+span.ocwdd_combine_notice {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/*CSS for support rating donation multistep end*/
+/*CSS for support rating donation multistep end*/
+
+
+input#ocwdd_starting_date, input#ocwdd_ending_date, input.ocwdd_select_date {
+    cursor: pointer;
+}
+a.add_date_button.button-secondary {
+    display: inline-block;
+    padding: 0px 20px;
+    margin-bottom: 15px;
+}
+.ocwdd_select_multiple div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ocwdd_select_multiple .remove_date img {
+    vertical-align: middle;
+    width: 20px;
+}
+.ocwdd_select_multiple a.remove_date {
+    margin-left: 10px;
+}
+.hide_sec {
+    opacity: .6;
+    pointer-events: none;
+}
